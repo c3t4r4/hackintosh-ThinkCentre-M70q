@@ -20,15 +20,15 @@
 
 
 ### Spec
-
-- Chipset: Q470
-- CPU: Intel 10th i3-10105
-- Memo: Samsung 32GB(2x16GB) DDR4 2666 Mhz
+- Model: iMac20,1
+- CPU: Intel 10th i5-10500T 2.5Gz (Coffee Lake)
+- Memo: 32GB(2x16GB) DDR4 2666 Mhz
 - iGPU: Intel UHD Graphic 630
-- HDA: Realtek ALC233
-- SSD: WD SN750 512G
-- LAN: Intel
-- WLAN: X
+- Audio Codec : Realtek ALC235
+- SSD: RZX DRAGO 512G
+- Ethernet : Intel I219V11 Gigabit Ethernet
+- Wifi/ Bluetooth: Intel Ax210 wi-fi 6 - Off
+- HDMI AND DP Work
 
 
 ### BIOS
@@ -54,7 +54,7 @@ Power
     
 Security
   |-- Secure Boot
-    |-- Secure Boot: Disabled
+    |-- Secure Boot: Enable
 
 Startup
   |-- Fast Boot: Disabled
@@ -66,26 +66,3 @@ Startup
 ### Screenshot
 
 ![macOS Ventura](Screenshot/about.png)
-
-
-### Kexts
-
-- [Lilu.kext](https://github.com/acidanthera/Lilu)
-- [SMCProcessor.kext](https://github.com/acidanthera/VirtualSMC)
-- [SMCSuperIO.kext](https://github.com/acidanthera/VirtualSMC)
-- [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC)
-- [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen)
-- [AppleALC.kext](https://github.com/acidanthera/AppleALC)
-- [IntelMausi.kext](https://github.com/acidanthera/IntelMausi)
-
-
-### Tools
-
-- [Hackintool](https://github.com/headkaze/Hackintool) 
-- [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) AKA `OCAT`.
-- [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) AKA `OCC`.
-- [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) Generate SMBIOS.
-- [MountEFI](https://github.com/corpnewt/MountEFI) Mount EFI partition.
-- [EFI Agent](https://github.com/headkaze/EFI-Agent) Better EFI partition mount App.
-- [gibMacOS](https://github.com/corpnewt/gibMacOS) Build your own MacOS image.
-- [ProperTree](https://github.com/corpnewt/ProperTree) Plist editor.
